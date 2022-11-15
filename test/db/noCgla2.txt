@@ -1,0 +1,1 @@
+Scer.genome.fasta
