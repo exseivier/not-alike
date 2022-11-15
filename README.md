@@ -28,8 +28,10 @@ not-alike search --help
 Task execution.
 
 ```bash
-not-alike -g test/seqs/Cgla.genome.fasta -ws 1000 -ss 100 -db test/db/noCgla.txt -e 10 -i 50 -q 50 -t megablast
+not-alike -g test/seqs/Cgla.genome.fasta -ws 1000 -ss 100 -db test/db/noCgla2.txt -e 10 -i 50 -q 50 -t megablast
 ```
+
+This pipeline requires two input files, one is the fasta file of the genome of interest (or query genome), and the another is a file with the name of the BLAST DB formated files of the genomes that are wanted to be in the database (in this example noCgla2.txt). This file must be inside the folder that holds all BLAST DB formatted files. The first file is set with the -g flag and the second with the -db flag. E-value (-e), identity percentage (-i) and query HSP coverage pewrcentage (-q) cutoff values are also set with the corresponding flags.
 
 ### Download & install
 
