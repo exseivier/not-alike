@@ -1,2 +1,2 @@
-from not-alike import nal
-from not-alike import utils
+from not_alike import nal
+from not_alike import utils

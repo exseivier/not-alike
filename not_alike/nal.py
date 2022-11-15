@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import random as RND
 import click
-import utils as CMD
+import not_alike.utils as CMD
 
 
 @click.group()
