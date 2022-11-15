@@ -9,8 +9,8 @@ setup(
     version='0.0.1',
     author='Javier Montalvo',
     author_email='buitrejma@gmail.com',
-    py_modules=['pkgs.nal', 'pkgs.utils'],
-    packages=['pkgs'],
+    py_modules=['not_alike.nal', 'not_alike.utils'],
+    packages=['not_alike'],
     python_requires='>=3.9',
     description='Pipeline that finds not alike regions of query genome compared to a hugh list of different genomes.',
     long_description = open('README.md', 'r').read(),
@@ -19,7 +19,7 @@ setup(
     url='https://www.github.com/exseivier/not-alike',
     entry_points = {
         'console_scripts' : [
-                'not-alike=pkgs.nal:main'
+                'not-alike=not_alike.nal:main'
                 ]
             },
     classifiers = [
