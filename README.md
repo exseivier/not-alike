@@ -34,10 +34,10 @@ not-alike -g test/seqs/Cgla.genome.fasta -ws 1000 -ss 100 -db test/db/noCgla.txt
 ### Download & install
 
 
-Download the tarball at [exseivier's github](https://www.github.com/exseivier/not-alike)
+Download the zipped file at [exseivier's github](https://www.github.com/exseivier/not-alike)
 
-tar -zxvf tarball.tar.gz
+unzip not-alike-main.zip
 
-cd tarball folder
+cd not-alike-main
 
 sudo pip3 install dist/Not-Alike-0.0.1.tar.gz
