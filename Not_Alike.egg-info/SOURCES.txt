@@ -6,6 +6,6 @@ Not_Alike.egg-info/dependency_links.txt
 Not_Alike.egg-info/entry_points.txt
 Not_Alike.egg-info/requires.txt
 Not_Alike.egg-info/top_level.txt
-pkgs/__init__.py
-pkgs/nal.py
-pkgs/utils.py
+not_alike/__init__.py
+not_alike/nal.py
+not_alike/utils.py
